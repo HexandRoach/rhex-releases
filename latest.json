@@ -1,11 +1,11 @@
 {
-  "version": "0.7.0-alpha.4",
-  "notes": "Signed updater test release for Linux x86_64.\nTests updating the installed alpha.3 baseline to alpha.4.\nNo additional feature changes are claimed.",
-  "pub_date": "2026-10-06T02:43:11.925278Z",
+  "version": "0.7.0-alpha.5",
+  "notes": "Local Activity history and updater usability improvements.\n\n- Records application starts and successful conversation actions.\n- Records model-download and update outcomes using fixed summaries.\n- Activity does not store chat text, conversation titles, paths, or raw errors.\n- Activity shows the newest 200 events and retains at most 1,000.\n- Events older than 30 days are pruned when Activity storage is accessed.\n- Clearing Activity does not delete conversations.\n- Update state is preserved across tabs.\n- Update operations guard sidebar navigation, app shortcuts, and Settings controls.\n- Tray Quit is blocked while this build performs an update installation.\n\nAlpha software: installation-guard behavior still needs an upgrade test from this version.\n",
+  "pub_date": "2026-10-06T04:08:09.182834Z",
   "platforms": {
     "linux-x86_64": {
-      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.4/rhex_0.7.0-alpha.4_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTnBobzRTTHNGaE1LdkFFVy9CR2tIQUpKc0lCYjMrdG92V0lFVEhiOVJIRXdXbHFHNjZvNHlGNzM4cVVUZDJnallIWGpsNk5ReEVISXpmS3cxb21RT2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU0NTU5CWZpbGU6cmhleF8wLjcuMC1hbHBoYS40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNAp5WUJjOGtEMU9uRWR2NUQwTDV1cWplQ1ZvUmdPYTVvUG5HQ1Z0K3pXK2E2RzErcUdmUkFyamtQMGpTOVhtV01uRVgwZm9FN1J5b0ZVNDFzSmErSUhEZz09Cg=="
+      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.5/rhex_0.7.0-alpha.5_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTmhBcTNIZDJiTVRBQTgxTzZWV2xOQTFpSFNEOG5yMXJpQWdMbit2UEFJb0lqVG1JcnlTVzJqcGVmdVhjM0EzajhNSFBOYWNSdTQydEY5TzJnL2JkRXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU5Njg0CWZpbGU6cmhleF8wLjcuMC1hbHBoYS41X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNQpSanpHTE0zakl5T1NEaDBQZ2NpWC9SWmdSd1BwNk8wOCtYcklQTytpdWJ3WUR6UUxCMi83S3hMQmk0dFBSMmdLQmR4LzdwZ3BPY09maFF3b2ROQVdDUT09Cg=="
     }
   }
 }
