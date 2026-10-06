@@ -1,0 +1,11 @@
+{
+  "version": "0.7.0-alpha.4",
+  "notes": "Signed updater test release for Linux x86_64.\nTests updating the installed alpha.3 baseline to alpha.4.\nNo additional feature changes are claimed.",
+  "pub_date": "2026-10-06T02:43:11.925278Z",
+  "platforms": {
+    "linux-x86_64": {
+      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.4/rhex_0.7.0-alpha.4_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTnBobzRTTHNGaE1LdkFFVy9CR2tIQUpKc0lCYjMrdG92V0lFVEhiOVJIRXdXbHFHNjZvNHlGNzM4cVVUZDJnallIWGpsNk5ReEVISXpmS3cxb21RT2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU0NTU5CWZpbGU6cmhleF8wLjcuMC1hbHBoYS40X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNAp5WUJjOGtEMU9uRWR2NUQwTDV1cWplQ1ZvUmdPYTVvUG5HQ1Z0K3pXK2E2RzErcUdmUkFyamtQMGpTOVhtV01uRVgwZm9FN1J5b0ZVNDFzSmErSUhEZz09Cg=="
+    }
+  }
+}
