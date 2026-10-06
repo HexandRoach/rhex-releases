@@ -129,7 +129,53 @@ Include:
 
 ## Development roadmap
 
-Activity and the updater are being developed incrementally.
+## Arch Linux testing
 
-Knowledge, Research, System, and Security remain roadmap modules.
-Do not assume placeholder tabs perform diagnostics, research, or security checks.
+The Linux x86_64 AppImage is available for Arch Linux users to test.
+
+**Status: Arch compatibility has not yet been confirmed by a tester.**
+A separate native Arch package is not currently provided.
+
+### Download and launch
+
+Download `rhex_0.7.0-alpha.5_amd64.AppImage` from the alpha.5 release Assets.
+
+Assuming the file is in your Downloads folder:
+
+```bash
+cd ~/Downloads &&
+chmod +x rhex_0.7.0-alpha.5_amd64.AppImage &&
+WEBKIT_DISABLE_DMABUF_RENDERER=1 \
+  ./rhex_0.7.0-alpha.5_amd64.AppImage
+```
+
+Run Rhex as your normal user, not with sudo.
+
+### Missing FUSE dependency
+
+Only if launching reports `libfuse.so.2` missing or an error requiring FUSE,
+run this on the Arch computer:
+
+```bash
+sudo pacman -Syu --needed fuse2
+```
+
+This command also performs a system upgrade. Review the package transaction
+before confirming, then try launching Rhex again.
+
+If Rhex already launches, skip this step.
+
+### Please report your results
+
+Send feedback through the Discord tester channel, including:
+
+- Arch Linux or derivative distribution name.
+- Desktop environment and whether you use Wayland or X11.
+- Running Rhex version shown in Settings.
+- Whether the application opens and local chat works.
+- Whether conversations remain after quitting and reopening.
+- Whether Activity and tray controls work.
+- Whether Check for updates completes.
+- Exact terminal errors if anything fails.
+
+Do not include private chats, passwords, or signing keys.
