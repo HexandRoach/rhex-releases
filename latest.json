@@ -1,11 +1,10 @@
 {
-  "version": "0.7.0-alpha.5",
-  "notes": "Local Activity history and updater usability improvements.\n\n- Records application starts and successful conversation actions.\n- Records model-download and update outcomes using fixed summaries.\n- Activity does not store chat text, conversation titles, paths, or raw errors.\n- Activity shows the newest 200 events and retains at most 1,000.\n- Events older than 30 days are pruned when Activity storage is accessed.\n- Clearing Activity does not delete conversations.\n- Update state is preserved across tabs.\n- Update operations guard sidebar navigation, app shortcuts, and Settings controls.\n- Tray Quit is blocked while this build performs an update installation.\n\nAlpha software: installation-guard behavior still needs an upgrade test from this version.\n",
-  "pub_date": "2026-10-06T04:08:09.182834Z",
+  "version": "0.7.0-alpha.6",
+  "notes": "Adds Restart now after successful update installation and update-busy protections. When updating from the published alpha.5, fully quit Rhex through the tray menu and reopen it manually. The new restart button is available for subsequent updates.",
   "platforms": {
     "linux-x86_64": {
-      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.5/rhex_0.7.0-alpha.5_amd64.AppImage",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTmhBcTNIZDJiTVRBQTgxTzZWV2xOQTFpSFNEOG5yMXJpQWdMbit2UEFJb0lqVG1JcnlTVzJqcGVmdVhjM0EzajhNSFBOYWNSdTQydEY5TzJnL2JkRXdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU5Njg0CWZpbGU6cmhleF8wLjcuMC1hbHBoYS41X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNQpSanpHTE0zakl5T1NEaDBQZ2NpWC9SWmdSd1BwNk8wOCtYcklQTytpdWJ3WUR6UUxCMi83S3hMQmk0dFBSMmdLQmR4LzdwZ3BPY09maFF3b2ROQVdDUT09Cg=="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTnBCN09BQ2dBVnlraGdwd1dydXdXTzlLVGdjb1RkMXhabk5PSFN1dXFpNkxqZzIrTzRaeFVPeHovT1Q1alJYZUo2VWZ2blRkU3h1bTc1eDk4NDI1MHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzMzNDYwCWZpbGU6cmhleF8wLjcuMC1hbHBoYS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNgovNVlUV0VLU3RVVzBuUFFFWTY3Mlo1NEVZZjJrN1ozQkFWYUpYaTZkMUFtZDNrdjAwdWF6TjRha044Y01WL1drME1tbXZJVDZhV1hZRzBZSit4ZWlCZz09Cg==",
+      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.6/rhex_0.7.0-alpha.6_amd64.AppImage"
     }
   }
 }
