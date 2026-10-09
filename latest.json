@@ -1,10 +1,10 @@
 {
-  "version": "0.7.0-alpha.6",
-  "notes": "Adds Restart now after successful update installation and update-busy protections. When updating from the published alpha.5, fully quit Rhex through the tray menu and reopen it manually. The new restart button is available for subsequent updates.",
+  "version": "0.7.0-alpha.7",
+  "notes": "Improves Ollama setup guidance and assistant capability-grounding instructions. Assistant answers may still contain unsupported claims; Rhex does not automatically install or start Ollama.",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTnBCN09BQ2dBVnlraGdwd1dydXdXTzlLVGdjb1RkMXhabk5PSFN1dXFpNkxqZzIrTzRaeFVPeHovT1Q1alJYZUo2VWZ2blRkU3h1bTc1eDk4NDI1MHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzMzNDYwCWZpbGU6cmhleF8wLjcuMC1hbHBoYS42X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNgovNVlUV0VLU3RVVzBuUFFFWTY3Mlo1NEVZZjJrN1ozQkFWYUpYaTZkMUFtZDNrdjAwdWF6TjRha044Y01WL1drME1tbXZJVDZhV1hZRzBZSit4ZWlCZz09Cg==",
-      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.6/rhex_0.7.0-alpha.6_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTnNla3BJWURVeiszQmZqVVFhdzh4dlJkT0RoYkJWaUNuU09vMTlWVGJuMWo2TWE2T2NXMU5yOU1hcUZrcktYYmE2dzBrOE4xWUFUcHFxdW8rM0puTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTA2MjY5CWZpbGU6cmhleF8wLjcuMC1hbHBoYS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNwpzMDZtL3RiM2JJWG4vem1VVmdUTzAzYkdwcEFWYzNoOWRUK0R1MDMrZjBFMGEyOWVJbnBYSmVOOWZLN2Q3VkFLYnZ4eEp3WEZUQXQ0TnZOY3gzVW5Bdz09Cg==",
+      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.7/rhex_0.7.0-alpha.7_amd64.AppImage"
     }
   }
 }
