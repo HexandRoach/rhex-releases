@@ -1,10 +1,10 @@
 {
-  "version": "0.7.0-alpha.7",
-  "notes": "Improves Ollama setup guidance and assistant capability-grounding instructions. Assistant answers may still contain unsupported claims; Rhex does not automatically install or start Ollama.",
+  "version": "0.7.0-alpha.8",
+  "notes": "Adds endpoint/model/version visibility and previewable diagnostic copying. Separates failed model-list checks from a missing model, with retry and download protection. Endpoint and model remain fixed.",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTnNla3BJWURVeiszQmZqVVFhdzh4dlJkT0RoYkJWaUNuU09vMTlWVGJuMWo2TWE2T2NXMU5yOU1hcUZrcktYYmE2dzBrOE4xWUFUcHFxdW8rM0puTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTA2MjY5CWZpbGU6cmhleF8wLjcuMC1hbHBoYS43X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuNwpzMDZtL3RiM2JJWG4vem1VVmdUTzAzYkdwcEFWYzNoOWRUK0R1MDMrZjBFMGEyOWVJbnBYSmVOOWZLN2Q3VkFLYnZ4eEp3WEZUQXQ0TnZOY3gzVW5Bdz09Cg==",
-      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.7/rhex_0.7.0-alpha.7_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTmxFWFI2anRaRHFMUDI3Z0ZPbys5RTFDakUrUnM3UjhGZXc1TGlnN1pYUTVMNERsY25zZ0hBZzBkZjM0NmJLSXZOcTBkY3l0WUhpTEFWR3l5U1F3SXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTA5MDU5CWZpbGU6cmhleF8wLjcuMC1hbHBoYS44X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuOApVc283bXlGVEx6Rm1ITSt5c2E3MmVzTy9aRWwxbXovbEhYcVdxem9wS2IxZDJQNk4zdUhhNnhCcTArQmVmemMrbFlnZDgyS05uMmtzdHFiQ24wODBDZz09Cg==",
+      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.8/rhex_0.7.0-alpha.8_amd64.AppImage"
     }
   }
 }
