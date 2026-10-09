@@ -1,10 +1,10 @@
 {
-  "version": "0.7.0-alpha.8",
-  "notes": "Adds endpoint/model/version visibility and previewable diagnostic copying. Separates failed model-list checks from a missing model, with retry and download protection. Endpoint and model remain fixed.",
+  "version": "0.7.0-alpha.9",
+  "notes": "Adds pasted-text summarization and explicit-task extraction with supporting quotations, source preview, and manual copying. Workflow results require review; extracted tasks are not executed. Endpoint and model remain fixed.",
   "platforms": {
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTmxFWFI2anRaRHFMUDI3Z0ZPbys5RTFDakUrUnM3UjhGZXc1TGlnN1pYUTVMNERsY25zZ0hBZzBkZjM0NmJLSXZOcTBkY3l0WUhpTEFWR3l5U1F3SXd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTA5MDU5CWZpbGU6cmhleF8wLjcuMC1hbHBoYS44X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuOApVc283bXlGVEx6Rm1ITSt5c2E3MmVzTy9aRWwxbXovbEhYcVdxem9wS2IxZDJQNk4zdUhhNnhCcTArQmVmemMrbFlnZDgyS05uMmtzdHFiQ24wODBDZz09Cg==",
-      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.8/rhex_0.7.0-alpha.8_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTDd6K0MyVHNoTmc5dCtmMm5leEtXUmlpUFZOUHhkSURaY2RJUDF0Z2tJYlh6NmsvRTk3YUpKM01MZ0RlaFdJdnl4QXdzMndkV2prU1l0Zk05aFBsSi8rVHgzTndJQndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTE0NTkyCWZpbGU6cmhleF8wLjcuMC1hbHBoYS45X2FtZDY0LkFwcEltYWdlCXZlcnNpb246MC43LjAtYWxwaGEuOQp1YS9qbWFXaG9sVUdndi9jejNGSmRxRFJSMDc0d1lRSVUxdWs1aUMyc3BvUldVYW01ZFFkZW0rYWdFZGIyZEwrT2NoL09rUWxSaDRrVkh6c3RDc3hBQT09Cg==",
+      "url": "https://github.com/HexandRoach/rhex-releases/releases/download/v0.7.0-alpha.9/rhex_0.7.0-alpha.9_amd64.AppImage"
     }
   }
 }
